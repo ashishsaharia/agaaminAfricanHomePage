@@ -264,19 +264,22 @@ justify-content: space-between;
 
 }
 .navButtonWrapper{
-
+  padding-right: 20px;
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
 .navRouterButtonWrapper{
   margin-right: 40px;
   display: flex;
   justify-content: space-evenly;
 
+}
+
+.navLogoWrapper{
+  padding-left: 20px;
 }
 
 
@@ -484,7 +487,7 @@ option {
 
 .sectionThreeWrapper{
   padding-top: 50px;
-  width: 100%;
+  width: 95%;
   display: flex;
   justify-content:space-between;
   flex-direction: row;
