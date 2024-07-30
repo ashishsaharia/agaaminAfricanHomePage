@@ -17,7 +17,13 @@ function SearchBar() {
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
-      getStatus();
+      if(name.length === 0){
+        setIsEmpty(true)
+    }
+    else{
+        setIsEmpty(false);
+        getStatus()
+    }
     }
   };
 
@@ -159,11 +165,9 @@ function SearchBar() {
               setInput("filling")
               setTld(e.target.value);
             }}>
-              <option value={'bh3'}> bh3</option>
-              <option value={'mu3'}>mu3</option>
-              <option value={'rarity'}>rarity</option>
-              <option value={'IN'}>IN</option>
-              <option value={'foodz'}>foodz</option>
+              <option value={'uquvu'}>uquvu</option>
+              <option value={'isizwe'}>isizwe</option>
+              <option value={'أُمَّة'}>أُمَّة </option>
             </select>
           </div>
         </div>
